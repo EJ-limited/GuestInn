@@ -35,8 +35,7 @@
 
     <!--side navbar-->
     <div class="sidenav" id="sidenav">
-      <span class="cancel-btn" id="cancel-btn">
-        <i class="fas fa-calendar-times"></i>
+      <span class="cancel-btn" id="cancel-btn">close <i class="fas fa-calendar-times"></i>
       </span>
       <ul class="navbar">
         <li><a href="#header">Home</a></li>
@@ -51,7 +50,9 @@
 
     <!--end of side navbar-->
     <!--full screnn modal-->
-    <div class="modal"></div>
+    <div id="modal"> 
+
+    </div>
     <!--end full screen modal-->
 
     <!-- body content-->
@@ -161,17 +162,31 @@
             <input type="date" id="checkout-date">
         </div>
         <div class="form-item">
-            <label for="adult">Adults</label>
-            <input type="number" min="1" value="1 " id="adult">
-        </div>
-        <div class="form-item">
-            <label for="childern">childern</label>
-            <input type="number" min="1" value="1 " id="childern">
-        </div>
-        <div class="form-item">
-            <label for="rooms">Rooms</label>
-            <input type="number" min="1" value="1 " id="rooms">
-        </div>
+          <label for="rooms">No .of Guest</label>
+          <input type="number" min="1" value="1 " id="rooms">
+      </div>
+        <div id="form-item">
+          <select  id="input-group" style="background-color: #fff;">
+              <option value="">no.of guest</option>
+              <option value="">1-5</option>
+              <option value="">6-10</option>
+
+
+          </select>  
+      </div>
+      <div id="form-item">
+
+        <select  id="input-group" style="background-color: #fff;">
+            <option value="">Room Type</option>
+            <option value="">AC</option>
+            <option value="">non-AC</option>
+            <option value="">single Bed</option>
+            <option value="">double Bed</option>
+
+
+        </select>  
+    </div> 
+      
         <div class="form-item">
             <input type="submit" class="btn" value="Book Now">
         </div>
@@ -364,7 +379,7 @@
         </div>
   </div>
   </div>
-  
+
 
         <!--end of customers-->
 
@@ -446,6 +461,7 @@
 
   </footer>
 
-
+<script src="script.js"
+ > </script>
   </body>
 </html>
