@@ -288,7 +288,16 @@ h6 {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 24px;
     }
- 
+    @media(min-width:1170px){
+        .book-form{
+            grid-template-columns: repeat(3, 1fr);
+            
+        }
+        @media(min-width:1370px){
+            .book-form{
+                grid-template-columns: repeat(2fr,2fr, 1fr, 1fr 1fr 2fr);
+                
+            }
 }
 .book {
   height: 40vh;
