@@ -68,31 +68,31 @@ img {
   flex-direction: column;
   align-content: stretch;
 }
-.header-top {
+.head-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header-top span {
+.head-top span {
   cursor: pointer;
   letter-spacing: 2px;
   transition: var(--transition);
 }
-.header-top span:hover {
+.head-top span:hover {
   color: var(--yellow);
 }
-.head-bottom-flex {
+.head-bottom {
   flex: 1;
   text-align: center;
   width: 80vw;
   margin: 0 auto;
 }
-.head-bottom-flex h2 {
+.head-bottom h2 {
   padding: 22px 0;
   font-size: 45px;
   border-bottom: 1px solid #fff;
 }
-.head-bottom-flex p {
+.head-bottom p {
   opacity: 0.7;
   font-size: 20px;
   margin: 45px auto;
@@ -221,9 +221,6 @@ img {
 .service-content h2 {
   opacity: 0.7;
 }
-.title h2 {
-  color: var(--yellow);
-}
 .service-content button {
   margin-left: 0;
   margin-right: 0;
@@ -243,7 +240,6 @@ img {
 @media (max-width: 500px) {
   .title h2 {
     font-size: 24px;
-    color: var(--yellow);
   }
 }
 
@@ -395,101 +391,68 @@ img {
 
 /* customers */
 
-.container {
+.customers {
   margin-top: 40px;
   padding: 40px 0;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/rezha-ramadhan-sV8M_Lkg60Y-unsplash.jpg") center/cover no-repeat
-      fixed;
+    url("images/customer-banner.jpg") center/cover no-repeat fixed;
 }
-.text-wrapper {
-  margin-top: 10%;
-}
-h1 {
-  font-size: 52px;
-  font-style: italic;
-  margin-bottom: 60px;
+.customer {
+  background: #fff;
+  padding: 35px;
   text-align: center;
-  color: #db570a;
+  margin: 24px 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: var(--transition);
 }
-.member {
-  display: flex;
-  text-align: center;
-  width: auto;
-  justify-content: center;
-  flex-wrap: wrap;
+.rating {
+  margin: 10px 0;
+  color: var(--yellow);
 }
-.food-members {
-  background: white;
-  margin: 5px;
-  margin-bottom: 50px;
-  width: 300px;
-  padding: 20px;
-  line-height: 20px;
-  color: #8e8b8b;
-  position: relative;
+.customer h3 {
+  font-size: 25px;
 }
-h3 {
-  color: #009968;
-  font-size: 26px;
-  margin-top: 50px;
+.customer p {
+  opacity: 0.7;
+  line-height: 1.8;
+  width: 60%;
+  margin: 0 auto;
 }
-.food-members p.role {
-  color: #ccc;
-  font-size: 12px;
-  text-transform: uppercase;
-  margin: 12px 0;
-}
-.team-image img {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
-}
-.food-members .team-image {
-  width: 100px;
-  height: 100px;
+.customer img {
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
-  position: absolute;
-  top: -50px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: white;
+  margin: 25px auto;
 }
-.food-members .team-image img {
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+.customer span {
+  font-weight: 700;
+  opacity: 0.7;
 }
-.icon-wrapper-1 img {
-  height: 50px;
-  width: 50px;
+.customer:hover {
+  transform: translateY(-18px);
 }
-.text-icon-insta {
-  display: flex;
+@media (min-width: 992px) {
+  .customers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
 }
-.icon-wrapper-2 img {
-  height: 50px;
-  width: 50px;
+@media (min-width: 1370px) {
+  .customers-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-.text-icon-whats {
-  display: flex;
-}
-.icon-wrapper-3 img {
-  height: 50px;
-  width: 50px;
-}
-.text-icon-twitter {
-  display: flex;
-}
-.icon-wrapper {
-  justify-content: center;
-  display: flex;
-}
-h1 {
-  color: white;
-}
-h2 {
-  color: white;
+@media (max-width: 500px) {
+  .customer p {
+    width: 100%;
+  }
+  .customer img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 /* footer */
