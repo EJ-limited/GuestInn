@@ -147,7 +147,7 @@
     </section>
 
     <div class="book">
-      <form class="book-form">
+      <form  class="book-form" id="booking-form">
         <div class="form-item">
           <label for="checkin-date">Check In Date: </label>
           <input type="date" id="chekin-date" />
@@ -162,16 +162,16 @@
         </div>
         <div class="form-item">
           <label for="Email">Email: </label>
-          <input type="text" value="1" id="No.of.Guest" />
+          <input type="text" value="1" id="email" />
         </div>
         <div class="form-item">
           <label for="Phone Number">Phone Number: </label>
-          <input type="number" min="1" value="1" id="Phone Number" />
+          <input type="number" min="1" value="1" id="phonenumber" />
         </div>
         <div class="form-item">
           <input type="number" min="1" value="1" id="Phone Number" />
         </div>
-        <select id="input-group" style="background-color: #fff">
+        <select id="roomtype" style="background-color: #fff">
           <option value="">Room Type</option>
           <option value="">AC</option>
           <option value="">non-AC</option>
@@ -179,7 +179,7 @@
           <option value="">double Bed</option>
         </select>
         <div class="form-item">
-          <input type="submit" class="btn" value="Book Now" />
+          <input type="submit" onclick="book()" class="btn" value="Book Now" />
         </div>
       </form>
     </div>
@@ -444,5 +444,37 @@
     <!-- end of footer -->
 
     <script src="script.js"></script>
+    <script >
+      function book(){
+    const email = document.getElementById("email");
+    const phonenumber = document.getElementById("phonenumber");
+    const checkin = document.getElementById("checkin-date");
+    const checkout =  document.getElementById("checkout-date");
+    const roomtype = document.getElementById("roomtype");
+
+    fetch("/api/v1/charge",{
+        method:"POST",
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(
+            {
+                "name":"example",
+                "email":email,
+                "phonenumber":phonenumber,
+                "checkin-date":checkin,
+                "checkout-date":checkout,
+                "roomtype":roomtype,
+                "guests":2
+            }
+        )
+
+    })
+    .then(function(response){
+        console.log(response.json());
+    })
+    .then(function(data) {
+    ChromeSamples.log(data.whatever);
+  });
+}
+    </script>
   </body>
 </html>
