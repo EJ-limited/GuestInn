@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .headerLink {
+      @apply cursor-pointer text-sm font-bold text-[#000]   transition duration-[.4s] hover:text-[#b3b3b3];
+    }
+  
+    .input {
+      @apply w-full rounded bg-[#FFF8EA] px-5 py-3.5 placeholder-[gray] outline-none focus:bg-[#454545];
+    }
+  
+    
+  .headerIcon{
+    @apply font-bold text-[#000]   w-[30px] h-[30px]
+  }
+  }
