@@ -8,7 +8,7 @@ function Servicepage() {
   return (
     <div className="lg:flex" >
       
-      <div className=" relative flex flex-col z-30 bg-white p-10 m-5  ">
+      <div className=" relative flex flex-col z-30  shadow-2xl bg-white p-10 m-5  ">
       <p className="italic text-xs absolute right-2 top-2 text-gray-400 ">
         category
       </p>
