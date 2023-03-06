@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/* @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
@@ -9,7 +9,14 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Playfairdisplay: ['playfair'],
+        DMSerifdisplay: ['Dmserif'],
+        Robotosalb: ['roboto'],
+        TiltPrism: ['TiltPrism'],
+      },
+    },
   },
   plugins: [],
 };

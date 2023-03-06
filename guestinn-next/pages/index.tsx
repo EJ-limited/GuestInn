@@ -1,10 +1,10 @@
 
 import Head from 'next/head';
-import Banner from '../component/Banner';
-import { Header } from '../component/Header';
-import Homepage from '../component/Homepage';
-import Roompage from '../component/Roompage';
-import Servicepage from '../component/Servicepage';
+import Banner from '../components/Banner';
+import { Header } from '../components/Header';
+import Homepage from '../components/Homepage';
+import Roompage from '../components/Roompage';
+import Servicepage from '../components/Servicepage';
 
 export default function Home() {
   return (
