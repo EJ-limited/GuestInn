@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import Button from './Button'
 
 type props = {
   
@@ -42,7 +41,8 @@ function Homepage  ( {}:props) {
                 
             </h1>
             <div className="grid place-items-center" >
-            <button type='submit '  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
+            <button type='submit '  className="cursor-pointer items-center justify-center overflow-hidden
+             rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
              font-bold text-white text-[20px] transition-all duration-300 focus:outline-none p-4" > Know More</button>
                
             </div>

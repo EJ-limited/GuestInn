@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import Button from './Button';
+
 
 
 
@@ -49,12 +49,16 @@ import Button from './Button';
           </li>
         ))
       }
-      <div className='md:hidden' ><Button title='Get started' /></div>
+      <div className='md:hidden' >
+      <button type='submit '  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
+             font-bold text-white text-[20px] transition-all duration-300 focus:outline-none p-4" > Contact Us</button>
+        </div>
       
     </ul>
 
     <div className='  ' >
-    <Button title='Get started' />
+    <button type='submit '  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
+             font-bold text-white text-[20px] transition-all duration-300 focus:outline-none p-4" > Contact Us</button>
     </div>
     </div>
   </div>
