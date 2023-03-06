@@ -19,7 +19,7 @@ function Roompage() {
             <h1 className="text-black mx-[-4] font-bold text-[30px] p-10 " >Food Service /Food Runner</h1>
                   <p  className="text-black mx-4  text-[20px]  font-serif p-2 " >Food is any substance consumed by an organism for nutritional support. <br></br>
             Food is usually of plant, animal, or fungal origin,<br></br> and contains essential nutrients</p>
-            <button type='submit '  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
+            <button type="submit"  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
              font-bold text-white text-[20px] transition-all duration-300 focus:outline-none p-4" > Know More</button>
             </div>
 
@@ -44,7 +44,7 @@ function Roompage() {
             <h1 className="text-black mx-[-4] font-bold text-[30px] p-10 " >Food Service /Food Runner</h1>
                   <p  className="text-black mx-4  text-[20px]  font-serif p-2 " >Food is any substance consumed by an organism for nutritional support. <br></br>
             Food is usually of plant, animal, or fungal origin,<br></br> and contains essential nutrients</p>
-            <button type='submit '  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
+            <button type="submit"  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
              font-bold text-white text-[20px] transition-all duration-300 focus:outline-none p-4" > Know More</button>
             </div>
 
@@ -67,7 +67,7 @@ function Roompage() {
             <h1 className="text-black mx-[-4] font-bold text-[30px] p-10 " >Food Service /Food Runner</h1>
                   <p  className="text-black mx-4  text-[20px]  font-serif p-2 " >Food is any substance consumed by an organism for nutritional support. <br></br>
             Food is usually of plant, animal, or fungal origin,<br></br> and contains essential nutrients</p>
-            <button type='submit '  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
+            <button type="submit"  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
              font-bold text-white text-[20px] transition-all duration-300 focus:outline-none p-4" > Know More</button>
             </div>
 
@@ -90,7 +90,7 @@ function Roompage() {
             <h1 className="text-black mx-[-4] font-bold text-[30px] p-10 " >Food Service /Food Runner</h1>
                   <p  className="text-black mx-4  text-[20px]  font-serif p-2 " >Food is any substance consumed by an organism for nutritional support. <br></br>
             Food is usually of plant, animal, or fungal origin,<br></br> and contains essential nutrients</p>
-            <button type='submit '  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
+            <button type="submit"  className="cursor-pointer items-center justify-center overflow-hidden rounded bg-yellow-400  shadow-lg shadow-yellow-500/50  mx-4 px-8 py-3
              font-bold text-white text-[20px] transition-all duration-300 focus:outline-none p-4" > Know More</button>
             </div>
 
